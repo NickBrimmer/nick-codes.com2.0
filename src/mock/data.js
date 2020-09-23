@@ -1,57 +1,55 @@
 import { nanoid } from 'nanoid';
+import NicksResume from '../assets/Developer Resume - Nick Brimmer.pdf';
 
-// HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'NickBrimmer.dev',
+  lang: 'en',
+  description: 'Portfolio of Nick Brimmer',
 };
 
-// HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
+  title: 'Hello my name is ',
+  name: 'Portfolio',
   subtitle: '',
-  cta: '',
+  cta: 'About Nick',
 };
 
-// ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: NicksResume,
 };
 
-// PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project2.png',
+    title: 'Full Stack Clothing Store',
+    info: `'Full-stack web application for an Ecommerce website. Technologies used include: React, Redux, SCSS, Firebase, as well as Stripe Payments. This includes images being rendered from a deployed Firebase database. React custom components used throughout. Global state context created with Redux, and then pulled with React-Redux hooks.'`,
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://full-stack-clothing-store.netlify.app/',
+    repo: 'https://github.com/NickBrimmer/full-stack-react-clothing-store',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project3.png',
+    title: 'Happy Hour PDX',
+    info: `'Web app designed for searching the downtown metropolitan area for happy hours any time of the day. Also, choose to create a favorites list and highlight categories you would like to review from all restaraunts quickly. My greatest contribution was in the wholistic design, logo, color pallet, images and typography.'`,
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://alchemy-field-trip-group.github.io/happy-hour-project/',
+    repo: 'https://github.com/NickBrimmer/happy-hour-pdx',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project1.png',
+    title: 'Tasty.com',
+    info: `'About
+    A fun CSS project for a food website. Includes dynamic SVGs, Animations, hover effects and all sorts or delicious looking images.'`,
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://tastyfoodwebsite.netlify.app/',
+    repo: 'https://github.com/NickBrimmer/tastyfood.com',
   },
 ];
 
@@ -59,36 +57,30 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'mailto:nickbrimmer@gmail.com',
 };
 
-// FOOTER DATA
 export const footerData = {
   networks: [
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/NickBrimmer',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/NickBrimmer',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/nick-brimmer/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/nickbrimmer',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
