@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import NicksResume from '../assets/NickBrimmer.pdf';
+import NicksResume from '../assets/Nick Brimmer - Developer Resume.pdf';
 
 export const headData = {
   title: 'NickBrimmer.dev',
@@ -8,7 +8,7 @@ export const headData = {
 };
 
 export const heroData = {
-  title: 'Hello my name is ',
+  title: 'Hello, my name is ',
   name: 'Portfolio',
   subtitle: '',
   cta: 'About Nick',
