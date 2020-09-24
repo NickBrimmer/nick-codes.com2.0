@@ -16,9 +16,11 @@ export const heroData = {
 
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: `Strategic, dependable and diligent front end developer with a proven work ethic, bringing an established knowledge in JavaScript engineering.`,
+  paragraphTwo: `Passionate about teamwork, improving
+  results, communication and UX design. Consistent to deliver profitable results above expectations. Adept to
+  working independently or in collaborative settings`,
+  paragraphThree: `Excited to design the next world-changing product with equally ambitious and team members.`,
   resume: NicksResume,
 };
 
