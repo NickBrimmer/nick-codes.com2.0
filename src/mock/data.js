@@ -28,11 +28,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: "project2.png",
-    title: "Full Stack Clothing Store",
+    title: "TypeScript eCommerce Store",
     info: `Full-stack web application for an Ecommerce website. Technologies used include: React, Redux, SCSS, Firebase, as well as Stripe Payments. This includes images being rendered from a deployed Firebase database. React custom components used throughout. Global state context created with Redux, and then pulled with React-Redux hooks.`,
     info2: "",
-    url: "https://full-stack-clothing-store.netlify.app/",
-    repo: "https://github.com/NickBrimmer/full-stack-react-clothing-store",
+    url: "https://typescript-ecommerce.netlify.app/",
+    repo: "https://github.com/NickBrimmer/TypeScript-eCommerce-Site",
   },
   {
     id: nanoid(),
